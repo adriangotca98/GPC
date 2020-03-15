@@ -98,6 +98,7 @@ void Display6() {
 
 void Display7() {
 	// trasare patrulatere GL_QUADS : (v0,v1,v2,v3), (v4,v5,v6,v7), ...
+	glColor3f(1, 0.1, 0.1); // rosu
 	glPolygonMode(GL_FRONT, GL_FILL);
 	glBegin(GL_QUADS);
 	glVertex2f(0.3, 0.7);
